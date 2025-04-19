@@ -58,4 +58,6 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           name: aseprite
-          path: ./build/bin/*
+          path: |
+             D:/a/Chivi/aseprite/build/bin/data
+             D:/a/Chivi/aseprite/build/bin/aseprite.exe
